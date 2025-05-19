@@ -1,0 +1,41 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  gap: 1vh;
+  align-items: center;
+  justify-content: space-between;
+}
+.title {
+  max-width: 25rem;
+  padding: 0.5rem 3rem;
+  background-color: rgb(93, 91, 88);
+}
+
+.v1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title:hover {
+  cursor: pointer;
+}
+h1 {
+  color: white;
+}
+p {
+  display: block;
+  color: white;
+}
+span {
+  color: white;
+}
+.MltEnableBtn {
+  padding: 0.5rem;
+  color: white;
+  cursor: pointer;
+  background-color: rgb(93, 91, 88);
+  margin-bottom: 1vh;
+}
